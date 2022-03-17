@@ -112,11 +112,16 @@ header {
     align-items: center;
 }
 
+.list-of-services a {
+    margin-top: -1px;
+}
+
 .cards-wrapper {
     display: flex;
     max-width: 1200px;
     margin-bottom: 50px;
 }
+
 
 .single-card {
     flex-basis: 33.33%;
@@ -185,6 +190,7 @@ header {
     padding: 13px 50px;
     background-color: #02185b;
     margin-bottom: 45px;
+    margin-top: -11px;
 }
 
 .read-more-btn:hover {
@@ -232,7 +238,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 55px;
+    margin-bottom: 52px;
 }
 
 .history-point:last-child {
@@ -250,16 +256,20 @@ header {
 }
 
 .year {
-    width: 205px;
-    height: 205px;
+    max-width: 205px;
+    /* max-height: 205px; */
     font-size: 40px;
     color: #02185b;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 15px solid #02185b;
-    border-radius: 110px;
+    border-radius: 50%;
     margin-left: 70px;
+    width: 100%;
+    height: 100%;
+    padding-top: 59px;
+    padding-bottom: 59px;
 }
 
 .history-point-desc h4 {
@@ -282,6 +292,7 @@ header {
 
 .testimonials {
     background-color: #02185b;
+    padding: 0 30px;
 }
 
 .testimonials h4 {
@@ -348,6 +359,7 @@ header {
     margin-top: 50px;
     margin-bottom: 50px;
     padding-left: 49px;
+    padding-right: 49px;
 }
 
 .comment-content {
@@ -367,8 +379,8 @@ header {
 .comment-content div:last-child {
     text-align: left;
     margin-top: -10px;
-    transform: scaleX(-1);
-    -webkit-transform-scaleX: (-1);
+    /* transform: scaleX(-1);
+    -webkit-transform-scaleX: (-1); */
     -webkit-transform: scaleX(-1);
 }
 
@@ -397,7 +409,7 @@ header {
     opacity: 0.5;
 }
 
-.contact-us{
+.contact-us {
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -418,7 +430,7 @@ header {
     font-weight: 700;
 }
 
-.contact-left p:first-of-type{
+.contact-left p:first-of-type {
     font-family: 'Poppins', sans-serif;
     font-size: 35px;
     font-weight: 700;
@@ -454,7 +466,7 @@ header {
     padding-bottom: 3px;
 }
 
-#contact-us input ~ input {
+#contact-us input~input {
     margin-top: 18px;
     padding-bottom: 5px;
     padding-top: 5px;
@@ -487,7 +499,7 @@ header {
     border: none;
     border-bottom: 2px solid gray;
     font-size: 17px;
-    line-height: 27px;    
+    line-height: 27px;
     padding-left: 5px;
     padding-right: 5px;
     margin-top: 26px;
@@ -498,7 +510,7 @@ header {
     outline: none;
 }
 
-#contact-textarea{
+#contact-textarea {
     margin-top: 22px;
     width: 28.5em;
     height: 5.5em;
@@ -522,7 +534,7 @@ footer {
     background-color: #02185b;
 }
 
-footer > h5{
+footer>h5 {
     font-family: 'Railway', sans-serif;
     font-weight: 600;
     font-size: 45px;
@@ -533,7 +545,7 @@ footer > h5{
     padding-right: 9px;
 }
 
-footer > h5 > span {
+footer>h5>span {
     display: block;
     letter-spacing: 0.01em;
 }
@@ -564,7 +576,7 @@ footer p:nth-child(2) {
     opacity: 0.8;
 }
 
-.copyright p{
+.copyright p {
     margin-top: 92px;
     background-color: #fff;
     padding-top: 10px;
@@ -576,4 +588,4 @@ footer p:nth-child(2) {
     padding-left: 36px;
     letter-spacing: 0.01em;
     color: #000;
-} 
+}

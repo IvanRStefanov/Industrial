@@ -1,0 +1,487 @@
+@media only screen and (max-width: 1250px) {
+
+    .header-content>a:first-child {
+        font-size: 25px;
+    }
+
+    .main-desc h1 {
+        font-size: 55px;
+    }
+
+    .main-desc p {
+        font-size: 45px;
+    }
+
+    .services h2 {
+        font-size: 40px;
+        padding-left: 0px;
+    }
+
+    .cards-wrapper {
+        max-width: 1000px;
+    }
+
+    .year {
+        max-height: 180px;
+        max-width: 180px;
+        font-size: 40px;
+        border: 10px solid #02185b;
+        margin-left: 0px;
+    }
+
+    .history-point-desc {
+        padding-left: 40px;
+        margin-right: 0px;
+    }
+
+    .history-point-desc h4 {
+        font-size: 30px;
+    }
+
+    .history-point-desc p {
+        font-size: 17px;
+    }
+
+    .testimonials h4 {
+        font-size: 45px;
+    }
+
+    .comment-content p {
+        font-size: 15px;
+    }
+
+    .comment-content {
+        padding-top: 20px;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    footer>h5 {
+        font-size: 40px;
+        padding-right: 0px;
+    }
+
+    .get-quote {
+        padding: 15px 50px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .main-desc {
+        height: 720px;
+    }
+
+    .card-heading {
+        font-size: 17px;
+    }
+
+    .card-description {
+        font-size: 14px;
+    }
+
+    .card-img {
+        max-height: 170px;
+    }
+
+    .read-more-btn {
+        padding: 10px 45px;
+    }
+
+    .history-points-wrapper {
+        width: 90%;
+    }
+
+    .year {
+        max-width: 140px;
+        max-height: 140px;
+    }
+
+    .history-point-desc h4 {
+        font-size: 25px;
+    }
+
+    .history-point-desc p {
+        font-size: 14px;
+    }
+
+    .testimonials-slider {
+        max-width: 830px;
+    }
+
+    .profile-wrapper {
+        margin-right: 0px;
+        flex-basis: 37.37%;
+    }
+
+    .comment-wrapper {
+        margin: 50px auto;
+        padding-left: 25px;
+    }
+
+    .profile-pic-wrapper {
+        width: 150px;
+        height: 150px;
+    }
+
+    .contact-us {
+        max-width: 900px;
+        margin-top: 125px;
+    }
+
+    .contact-left {
+        flex-basis: 45%;
+        padding-left: 15px;
+    }
+
+    .contact-left p:first-of-type {
+        line-height: 43px;
+    }
+
+    .contact-left p:last-of-type {
+        line-height: 29px;
+    }
+
+    .contact-right {
+        flex-basis: 55%;
+        padding-left: 50px;
+        margin-right: 0px;
+        padding-right: 30px;
+    }
+
+    #contact-us {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #contact-textarea {
+        width: initial;
+        padding-right: 5px;
+    }
+
+    #contact-us input:last-child {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px 60px;
+    }
+}
+
+@media only screen and (max-width: 855px) {
+
+    .main-desc {
+        max-height: 600px;
+    }
+
+    .img-wrap {
+        width: 52%;
+    }
+
+    .main-desc div:last-child {
+        width: 48%;
+        padding-left: 10px;
+    }
+
+    .main-desc h1 {
+        font-size: 40px;
+    }
+
+    .main-desc p {
+        font-size: 25px;
+        width: 80%;
+    }
+
+
+    .card-img {
+        max-height: 150px;
+        margin-bottom: -125px;
+    }
+
+    .card-content {
+        padding-top: 134px;
+    }
+
+
+    .profile-wrapper div:last-child {
+        font-size: 17px;
+
+    }
+
+    .contact-us {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .main-desc {
+        flex-direction: column;
+    }
+
+    .img-wrap {
+        width: 100%;
+        height: 82%;
+    }
+
+    .img-wrap img {
+        object-fit: fill;
+    }
+
+    .main-desc div:last-child {
+        width: 100%;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .main-desc h1 {
+        width: 100%;
+    }
+
+    .main-desc p {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .services h2 {
+        font-size: 30px;
+    }
+
+    .cards-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .list-of-services {
+        padding-top: 0px;
+    }
+
+    .list-of-services a {
+        margin-top: 20px;
+        width: 50%;
+        text-align: center;
+    }
+
+    .list-of-services>a {
+        width: 195px;
+    }
+
+    .history-point {
+        flex-direction: column;
+    }
+
+    .history-point-desc {
+        padding-left: 0px;
+    }
+
+    .history-point-desc p {
+        display: none;
+    }
+
+    .cards-wrapper {
+        margin-bottom: 60px;
+    }
+
+    .testimonials h4 {
+        padding-top: 50px;
+        margin-bottom: 10px;
+    }
+
+    .testimonials-slider {
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+
+    .profile-wrapper {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .profile-pic-wrapper {
+        flex-basis: auto;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+
+    .comment-wrapper {
+        padding-left: 0px;
+        padding-right: 0px;
+        border-left: none;
+        margin: 10px auto;
+        margin-top: -13px;
+    }
+
+    .comment-content p {
+        margin-top: 0px;
+    }
+
+    .comment-content div:last-child {
+        padding-top: 10px;
+    }
+
+    .testimonial-btns {
+        padding-bottom: 50px;
+    }
+
+    .contact-us {
+        margin-top: 50px;
+    }
+
+    .contact-left {
+        text-align: center;
+        padding-bottom: 20px;
+        padding-left: 0px;
+    }
+
+    .contact-left p:last-of-type {
+        display: none;
+    }
+
+    .contact-right {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #contact-us input:last-child {
+        padding: 10px 50px;
+        margin-top: 25px;
+    }
+
+    footer>h5 {
+        font-size: 30px;
+    }
+
+    footer :not(:first-child) {
+        font-size: 15px;
+    }
+
+    .get-quote {
+        padding: 10px 20px;
+    }
+
+    .copyright p {
+        margin-top: 35px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .main-desc h1 {
+        font-size: 35px;
+        line-height: 40px;
+        padding-bottom: 20px;
+    }
+
+    .main-desc p {
+        padding: 0 20px;
+    }
+
+    .list-of-services a {
+        margin-top: 30px;
+    }
+
+    .cards-wrapper {
+        margin-top: 50px;
+    }
+
+    .card-content {
+        padding-top: 95px;
+        padding-bottom: 45px;
+    }
+
+    .card-heading {
+        margin: 0 45px;
+        margin-bottom: -30px;
+    }
+
+    .card-img {
+        margin-bottom: -85px;
+    }
+
+    .card-description {
+        display: none;
+    }
+
+    .services h2 {
+        font-size: 25px;
+        margin-top: 25px;
+        line-height: 36px;
+    }
+
+    .list-of-services>a {
+        width: 151px;
+        font-size: 10px;
+        margin-top: -10px;
+    }
+
+    .history-heading span {
+        font-size: 35px;
+    }
+
+    .history-point-desc h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .history-point:first-child>.year:first-child {
+        padding: 30px;
+    }
+
+    .year {
+        max-width: 140px;
+        max-height: 140px;
+    }
+
+    .history {
+        margin-bottom: 100px;
+    }
+
+    .history-points-wrapper {
+        margin-bottom: -10px;
+    }
+
+    .testimonials h4 {
+        font-size: 40px;
+    }
+
+    .contact-left p:first-of-type {
+        font-size: 25px;
+    }
+
+    #contact-us {
+        max-width: 200px;
+    }
+
+    #contact-us input, #contact-textarea {
+        font-size: 15px;
+    }
+
+    #contact-us input:last-child {
+        padding: 10px 40px;
+        font-size: 15px;
+    }
+
+    footer>h5 {
+        font-size: 25px;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+
+    footer :not(:first-child) {
+        margin-bottom: 40px;
+    }
+
+    footer :not(:first-child) {
+        font-size: 10px;
+    }
+
+    footer :not(:first-child) {
+        margin-bottom: 0 px;
+    }
+
+    .copyright p {
+        font-size: 9px;
+        padding-left: 0px;
+    }
+}
