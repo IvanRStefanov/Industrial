@@ -156,7 +156,7 @@
     }
 
     #contact-textarea {
-        width: initial;
+        width: 100%;
         padding-right: 5px;
     }
 
@@ -361,127 +361,5 @@
 
     .copyright p {
         margin-top: 35px;
-    }
-}
-
-@media only screen and (max-width: 320px) {
-
-    .main-desc h1 {
-        font-size: 35px;
-        line-height: 40px;
-        padding-bottom: 20px;
-    }
-
-    .main-desc p {
-        padding: 0 20px;
-    }
-
-    .list-of-services a {
-        margin-top: 30px;
-    }
-
-    .cards-wrapper {
-        margin-top: 50px;
-    }
-
-    .card-content {
-        padding-top: 95px;
-        padding-bottom: 45px;
-    }
-
-    .card-heading {
-        margin: 0 45px;
-        margin-bottom: -30px;
-    }
-
-    .card-img {
-        margin-bottom: -85px;
-    }
-
-    .card-description {
-        display: none;
-    }
-
-    .services h2 {
-        font-size: 25px;
-        margin-top: 25px;
-        line-height: 36px;
-    }
-
-    .list-of-services>a {
-        width: 151px;
-        font-size: 10px;
-        margin-top: -10px;
-    }
-
-    .history-heading span {
-        font-size: 35px;
-    }
-
-    .history-point-desc h4 {
-        font-size: 20px;
-        text-align: center;
-    }
-
-    .history-point:first-child>.year:first-child {
-        padding: 30px;
-    }
-
-    .year {
-        max-width: 140px;
-        max-height: 140px;
-    }
-
-    .history {
-        margin-bottom: 100px;
-    }
-
-    .history-points-wrapper {
-        margin-bottom: -10px;
-    }
-
-    .testimonials h4 {
-        font-size: 40px;
-    }
-
-    .contact-left p:first-of-type {
-        font-size: 25px;
-    }
-
-    #contact-us {
-        max-width: 200px;
-    }
-
-    #contact-us input, #contact-textarea {
-        font-size: 15px;
-    }
-
-    #contact-us input:last-child {
-        padding: 10px 40px;
-        font-size: 15px;
-    }
-
-    footer>h5 {
-        font-size: 25px;
-        width: 90%;
-        margin: 0 auto;
-        padding-top: 50px;
-    }
-
-    footer :not(:first-child) {
-        margin-bottom: 40px;
-    }
-
-    footer :not(:first-child) {
-        font-size: 10px;
-    }
-
-    footer :not(:first-child) {
-        margin-bottom: 0 px;
-    }
-
-    .copyright p {
-        font-size: 9px;
-        padding-left: 0px;
     }
 }
