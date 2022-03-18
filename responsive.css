@@ -99,6 +99,7 @@
 
     .history-point-desc h4 {
         font-size: 25px;
+        text-align: center;
     }
 
     .history-point-desc p {
@@ -193,7 +194,7 @@
 
 
     .card-img {
-        max-height: 150px;
+        height: 150px;
         margin-bottom: -125px;
     }
 
