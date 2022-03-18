@@ -364,3 +364,83 @@
         margin-top: 35px;
     }
 }
+
+
+@media only screen and (max-width: 370px) {
+    .header-content>a:first-child {
+        font-size: 15px;
+    }
+
+    .main-desc {
+        height: 400px;
+    }
+
+    .img-wrap {
+        height: 60%;
+    }
+
+    .main-desc h1 {
+        font-size: 35px;
+    }
+
+    .main-desc p {
+        padding: 0 10px;
+        font-size: 20px;
+    }
+
+    .services h2 {
+        font-size: 25px;
+        margin-top: 50px;
+    }
+
+    .card-img {
+        width: 180px;
+        margin-bottom: -150px;
+    }
+
+    .card-description {
+        display: none;
+    }
+
+    .list-of-services .read-more-btn {
+        width: auto;
+    }
+
+    .cards-wrapper{
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    .history-heading a{
+        font-size: 30px;
+    }
+
+    .history-heading span{
+        font-size: 35px;
+    }
+
+    .history{
+        margin-bottom: 60px;
+    }
+
+    .testimonials h4{
+        font-size: 35px;
+    }
+
+    .contact-left * {
+        font-size: 30px;
+    }
+
+    #contact-us{
+        padding: 0 10px;
+    }
+
+    .copyright p {
+        padding-left: 0px;
+        display: inline-block;
+    }
+
+    footer>h5 {
+        padding-top: 50px;
+    }
+}
