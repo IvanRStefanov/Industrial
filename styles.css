@@ -257,7 +257,6 @@ header {
 
 .year {
     max-width: 205px;
-    /* max-height: 205px; */
     font-size: 40px;
     color: #02185b;
     display: flex;
@@ -379,8 +378,6 @@ header {
 .comment-content div:last-child {
     text-align: left;
     margin-top: -10px;
-    /* transform: scaleX(-1);
-    -webkit-transform-scaleX: (-1); */
     -webkit-transform: scaleX(-1);
 }
 
